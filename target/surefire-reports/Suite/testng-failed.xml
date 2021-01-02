@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Academy.E2EProject.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="AssertionFile(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.E2EProject.Assertions">
+        <methods>
+          <include name="Initialisation"/>
+          <include name="validateHeader"/>
+          <include name="Dump"/>
+          <include name="BrowserNavigation"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.Assertions -->
+    </classes>
+  </test> <!-- AssertionFile(failed) -->
+  <test thread-count="5" verbose="0" name="HomePageFile(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="Dump"/>
+          <include name="BrowserNavigation"/>
+          <include name="Initialisation"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- HomePageFile(failed) -->
+</suite> <!-- Failed suite [Suite] -->

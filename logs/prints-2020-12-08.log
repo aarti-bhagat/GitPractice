@@ -1,0 +1,8 @@
+20:34:20.329 [TestNG-tests-2] INFO  resources.Base - Assertion is passed
+20:34:20.414 [TestNG-tests-2] INFO  resources.Base - Assertion is passed
+20:34:25.524 [TestNG-tests-1] INFO  resources.Base - Home is passed
+20:34:28.714 [TestNG-tests-1] INFO  resources.Base - Home is passed
+20:35:54.580 [TestNG-tests-2] INFO  resources.Base - Browser is initiated
+20:35:59.579 [TestNG-tests-1] INFO  resources.Base - Home is passed
+20:36:03.602 [TestNG-tests-1] INFO  resources.Base - Home is passed
+20:36:03.753 [TestNG-tests-2] INFO  resources.Base - URL is invoked
