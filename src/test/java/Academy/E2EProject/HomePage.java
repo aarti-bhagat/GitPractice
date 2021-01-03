@@ -48,6 +48,8 @@ public class HomePage extends Base
 		fp.sendMeInstruction().click();
 		log.info("Home is passed");
 		System.out.println("Git code");
+		System.out.println("Git code_Clone");
+		System.out.println("Git code_Clone1");
 	}
 
 	@DataProvider
