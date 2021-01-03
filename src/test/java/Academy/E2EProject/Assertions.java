@@ -42,6 +42,7 @@ public class Assertions extends Base{
 		Assert.assertEquals(lp.getTitle().getText(), "FEATURED COURSES");
 		Assert.assertTrue(lp.Text().isDisplayed());
 		log.info("Assertion is passed");
+		System.out.println("Assertion test develop branch Git Project");
 }
 	
 	@Test
