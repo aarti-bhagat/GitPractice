@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\aabhagat\Desktop\Eclipse_64_Workspace\E2EProject\testngCucumber.xml</span>
+                    <span>C:\Selenium Jars\Git_Project\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.E2EProject.HomePage" hash-for-method="BrowserNavigation(restrictedusr@g.com, restrictedusr)">BrowserNavigation(restrictedusr@g.com, restrictedusr)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.E2EProject.HomePage" hash-for-method="BrowserNavigation(nonrestrictedusr@g.com, nonrestrictedusr)">BrowserNavigation(nonrestrictedusr@g.com, nonrestrictedusr)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.E2EProject.Assertions" hash-for-method="BrowserNavigation">BrowserNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.E2EProject.Assertions" hash-for-method="validateHeader">validateHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -105,24 +134,75 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.Assertions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserNavigation">
+                  </a> <!-- BrowserNavigation -->
+                  <span class="method-name">BrowserNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHeader">
+                  </a> <!-- validateHeader -->
+                  <span class="method-name">validateHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.E2EProject.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserNavigation(restrictedusr@g.com, restrictedusr)">
+                  </a> <!-- BrowserNavigation(restrictedusr@g.com, restrictedusr) -->
+                  <span class="method-name">BrowserNavigation</span>
+                  <span class="parameters">(restrictedusr@g.com, restrictedusr)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserNavigation(nonrestrictedusr@g.com, nonrestrictedusr)">
+                  </a> <!-- BrowserNavigation(nonrestrictedusr@g.com, nonrestrictedusr) -->
+                  <span class="method-name">BrowserNavigation</span>
+                  <span class="parameters">(nonrestrictedusr@g.com, nonrestrictedusr)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\aabhagat\Desktop\Eclipse_64_Workspace\E2EProject\testngCucumber.xml</span>
+            <span class="header-content">C:\Selenium Jars\Git_Project\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Academy.E2EProject.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;TestRunnerFile&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HomePageFile&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;cucumberOptions.TestRunner&quot;/&gt;
+      &lt;class name=&quot;Academy.E2EProject.HomePage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestRunnerFile --&gt;
+  &lt;/test&gt; &lt;!-- HomePageFile --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AssertionFile&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Academy.E2EProject.Assertions&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AssertionFile --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +214,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestRunnerFile (1 class)</span>
+                <span class="test-name">HomePageFile (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AssertionFile (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,12 +243,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'BrowserNavigation')
+data.setCell(0, 2, 'Academy.E2EProject.HomePage')
+data.setCell(0, 3, 8505);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BrowserNavigation')
+data.setCell(1, 2, 'Academy.E2EProject.HomePage')
+data.setCell(1, 3, 7944);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BrowserNavigation')
+data.setCell(2, 2, 'Academy.E2EProject.Assertions')
+data.setCell(2, 3, 868);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateHeader')
+data.setCell(3, 2, 'Academy.E2EProject.Assertions')
+data.setCell(3, 3, 447);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -191,15 +290,48 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">cucumberOptions.TestRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass</span>
+              <div class="chronological-class-name">Academy.E2EProject.HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Initialisation</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">198 ms</span>
-              </div> <!-- configuration-class after -->
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.Assertions</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Initialisation</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BrowserNavigation(restrictedusr@g.com, restrictedusr)</span>
+                <span class="method-start">5244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BrowserNavigation(nonrestrictedusr@g.com, nonrestrictedusr)</span>
+                <span class="method-start">13763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">Dump</span>
+                <span class="method-start">21713 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.E2EProject.Assertions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BrowserNavigation</span>
+                <span class="method-start">33557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateHeader</span>
+                <span class="method-start">34427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">Dump</span>
+                <span class="method-start">34880 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

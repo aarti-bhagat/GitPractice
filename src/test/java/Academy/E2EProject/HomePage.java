@@ -47,6 +47,7 @@ public class HomePage extends Base
 		fp.email().sendKeys("scds.fgm@afasnf.com");
 		fp.sendMeInstruction().click();
 		log.info("Home is passed");
+		System.out.println("Git code");
 	}
 
 	@DataProvider
